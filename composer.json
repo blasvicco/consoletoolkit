@@ -2,7 +2,7 @@
     "name": "blasvicco/console-toolkit",
     "description": "A couple of useful commands for the craft console.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
@@ -11,8 +11,8 @@
         "console toolkit"
     ],
     "support": {
-        "docs": "https://github.com/blasvicco/console-toolkit/blob/master/README.md",
-        "issues": "https://github.com/blasvicco/console-toolkit/issues"
+        "docs": "https://github.com/blasvicco/consoletoolkit/blob/master/README.md",
+        "issues": "https://github.com/blasvicco/consoletoolkit/issues"
     },
     "license": "MIT",
     "authors": [
@@ -34,7 +34,7 @@
         "handle": "console-toolkit",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/blasvicco/console-toolkit/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/blasvicco/consoletoolkit/master/CHANGELOG.md",
         "class": "blasvicco\\consoletoolkit\\ConsoleToolkit"
     }
 }

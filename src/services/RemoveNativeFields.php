@@ -17,7 +17,7 @@ use craft\db\Query;
 /**
  * @author    Blas Vicco
  * @package   ConsoleToolkit
- * @since     1.0.0
+ * @since     1.0.1
  */
 class RemoveNativeFields extends Component {
 

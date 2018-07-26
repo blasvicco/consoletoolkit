@@ -11,7 +11,7 @@
 /**
  * @author    Blas Vicco
  * @package   ConsoleToolkit
- * @since     1.0.0
+ * @since     1.0.1
  */
 return [
   'Console Toolkit plugin loaded' => 'Console Toolkit plugin loaded',

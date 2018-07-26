@@ -22,7 +22,7 @@ use craft\console\Application as ConsoleApplication;
  *
  * @author    Blas Vicco
  * @package   ConsoleToolkit
- * @since     1.0.0
+ * @since     1.0.1
  *
  * @property  RemoveNativeFieldsService $removeNativeFields
  * @property  RemoveSuperTableFieldsService $removeSuperTableFields
@@ -42,7 +42,7 @@ class ConsoleToolkit extends Plugin {
   /**
    * @var string
    */
-  public $schemaVersion = '1.0.0';
+  public $schemaVersion = '1.0.1';
 
   // Public Methods
   // =========================================================================

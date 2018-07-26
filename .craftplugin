@@ -1,7 +1,7 @@
 {
     "pluginName": "Console Toolkit",
     "pluginDescription": "A couple of util commands for the craft console.",
-    "pluginVersion": "1.0.0",
+    "pluginVersion": "1.0.1",
     "pluginAuthorName": "Blas Vicco",
     "pluginVendorName": "blasvicco",
     "pluginAuthorUrl": "https://github.com/blasvicco",

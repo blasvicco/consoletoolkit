@@ -18,7 +18,7 @@ use verbb\supertable\services\SuperTableService;
 /**
  * @author    Blas Vicco
  * @package   ConsoleToolkit
- * @since     1.0.0
+ * @since     1.0.1
  */
 class RemoveSuperTableFields extends SuperTableService {
   // Public Methods

@@ -20,7 +20,7 @@ use yii\console\Controller;
  *
  * @author    Blas Vicco
  * @package   ConsoleToolkit
- * @since     1.0.0
+ * @since     1.0.1
  */
 class RemoveEmptyFieldsController extends Controller {
   // Public Methods
