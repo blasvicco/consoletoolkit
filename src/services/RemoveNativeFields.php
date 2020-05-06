@@ -41,7 +41,7 @@ class RemoveNativeFields extends Component {
   public function removeFields() {
     $data = (new Query())
       ->select(['F.id', 'F.handle', 'F.type'])
-      ->from(['craft_fields F'])
+      ->from([Craft::$app->getDb()->tablePrefix.'fields F'])
       ->leftJoin('craft_fieldlayoutfields FLF', 'FLF.fieldId = F.id')
       ->where(['FLF.id' => NULL, 'F.type' => $this::FIELD_TYPES])
       ->groupBy(['F.id'])
@@ -49,7 +49,7 @@ class RemoveNativeFields extends Component {
     foreach ($data as $record) {
       try {
         $count = (new Query())
-        ->from('craft_content C')
+        ->from(Craft::$app->getDb()->tablePrefix.'content C')
         ->where('C.field_' . $record['handle'] . ' IS NOT NULL')
         ->count('C.id');
         if ($count == 0) {
@@ -88,7 +88,7 @@ class RemoveNativeFields extends Component {
   }
 
   private function removeIfEmpty($field) {
-    $tableName = Craft::$app->matrix->getContentTableName($field);
+    $tableName = $field->contentTable;
     if (Craft::$app->getDb()->tableExists($tableName) == FALSE) {
       echo Craft::t(
         'console-toolkit',
